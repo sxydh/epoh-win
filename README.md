@@ -39,10 +39,19 @@ If you need to call custom interfaces, just follow these two steps:
 
 ## Current and Future Capabilities of EpohWin
 
-* \[TODO\] File Operations
-* \[TODO\] Database Operations
-* \[TODO\] Process Operations
-* \[TODO\] Multithreading Tasks
+* File Operations  
+  * System.IO.File  
+  * System.IO.Directory  
+  * \[TODO\]  
+
+* Database Operations  
+  * SQLite  
+  * \[TODO\]  
+
+* Process Operations  
+  * System.Diagnostics.Process  
+  * \[TODO\]  
+
 * \[TODO\] Security
 
 ## EpohWin Architecture
