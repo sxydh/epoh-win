@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="AppTest\MethodHelperTest.cs" />
     <Compile Include="AppTest\ProgramTest.cs" />
+    <Compile Include="LibTest\DirectoryHelperTest.cs" />
     <Compile Include="LibTest\FileHelperTest.cs" />
     <Compile Include="LibTest\HelloWorldTest.cs" />
     <Compile Include="LibTest\SQLiteHelperTest.cs" />
