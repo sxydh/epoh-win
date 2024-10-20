@@ -37,10 +37,19 @@ fetch("http://localhost:33/api/lib/hello-world")
 
 ## EpohWin 现在和将来具备的能力
 
-* \[TODO\] 文件操作
-* \[TODO\] 数据库操作
-* \[TODO\] 进程操作
-* \[TODO\] 多线程任务
+* 文件操作  
+  * System.IO.File  
+  * System.IO.Directory  
+  * \[TODO\]  
+
+* 数据库操作  
+  * SQLite  
+  * \[TODO\]  
+
+* 进程操作  
+  * System.Diagnostics.Process  
+  * \[TODO\]  
+
 * \[TODO\] 安全
 
 ## EpohWin 架构
