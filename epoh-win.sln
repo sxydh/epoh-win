@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpohWin.App", "EpohWin.App\EpohWin.App.csproj", "{4626D312-E5AF-433B-89FF-BAEA77DF2808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpohWin.Lib", "EpohWin.Lib\EpohWin.Lib.csproj", "{14209AFF-D948-49BF-9491-EAC092A34598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4626D312-E5AF-433B-89FF-BAEA77DF2808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4626D312-E5AF-433B-89FF-BAEA77DF2808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4626D312-E5AF-433B-89FF-BAEA77DF2808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14209AFF-D948-49BF-9491-EAC092A34598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14209AFF-D948-49BF-9491-EAC092A34598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14209AFF-D948-49BF-9491-EAC092A34598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14209AFF-D948-49BF-9491-EAC092A34598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
