@@ -1,6 +1,6 @@
 # What is EpohWin [\[中文\]](./README.chs.md)
 
-EpohWin is a cross-platform framework implemented in C#, designed to integrate the capabilities of browsers and system interfaces.
+EpohWin is a framework implemented in .NET Framework 4.7.2, designed to integrate the capabilities of browsers and system interfaces.
 
 ## What Can EpohWin Do
 
@@ -44,7 +44,6 @@ If you need to call custom interfaces, just follow these two steps:
 * \[TODO\] Process Operations
 * \[TODO\] Multithreading Tasks
 * \[TODO\] Security
-* \[TODO\] Cross-Platform
 
 ## EpohWin Architecture
 
