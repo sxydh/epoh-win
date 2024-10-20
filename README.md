@@ -18,7 +18,7 @@ EpohWin is a framework implemented in .NET Framework 4.7.2, designed to integrat
 
 Using EpohWin is very simple, just one step:  
 
-* Place EpohWin.Core.exe in the folder containing index.html, and run EpohWin.Core.exe to access the application homepage.  
+* Place EpohWin.Win.exe in the folder containing index.html, and run EpohWin.Win.exe to access the application homepage.  
 
 If you need to call system interfaces, it's also very easy:  
 

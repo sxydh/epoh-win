@@ -16,7 +16,7 @@ EpohWin 是 .NET Framework 4.7.2 实现的 Windows 桌面框架，目的是整�
 
 EpohWin 使用非常简单，只需要一步：  
 
-* 将 EpohWin.Core.exe 放到带有 index.html 的文件夹内，运行 EpohWin.Core.exe 即可进入应用首页。  
+* 将 EpohWin.Win.exe 放到带有 index.html 的文件夹内，运行 EpohWin.Win.exe 即可进入应用首页。  
 
 如果需要调用系统接口，也非常容易：  
 
