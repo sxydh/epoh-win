@@ -34,9 +34,9 @@ namespace EpohWin.App
                 }
             }
 
-            int port = 33;
+            var port = 33;
 
-            AllServer fileServer = new AllServer(port);
+            var fileServer = new AllServer(port);
             var task = Task.Run(async () => { await fileServer.Start(); });
             Process.Start($"http://localhost:{port}");
             File.WriteAllText(pidPath, Process.GetCurrentProcess().Id.ToString());
