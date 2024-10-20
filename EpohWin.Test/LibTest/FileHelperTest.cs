@@ -3,6 +3,7 @@ using System.Globalization;
 using System.IO;
 using EpohWin.Lib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Newtonsoft.Json;
 
 namespace EpohWin.Test.LibTest
 {
