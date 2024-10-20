@@ -12,7 +12,7 @@ using MNetUtil.Core;
 
 namespace EpohWin.App
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] _)
         {
@@ -44,7 +44,7 @@ namespace EpohWin.App
         }
     }
 
-    class AllServer : FileServer
+    internal class AllServer : FileServer
     {
         internal AllServer(int port) : base(port, "")
         {
