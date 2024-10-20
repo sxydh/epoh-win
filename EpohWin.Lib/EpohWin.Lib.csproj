@@ -69,18 +69,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileHelper.cs" />
-    <Compile Include="HelloWorld.cs" />
-    <Compile Include="ProcessHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SQLiteHelper.cs" />
+    <Compile Include="Src\FileHelper.cs" />
+    <Compile Include="Src\HelloWorld.cs" />
+    <Compile Include="Src\ProcessHelper.cs" />
+    <Compile Include="Src\SQLiteHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Src\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
