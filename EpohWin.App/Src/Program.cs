@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-using MNetUtil.Core;
+using MCSUtil.Core;
 
 namespace EpohWin.App
 {
@@ -50,7 +50,7 @@ namespace EpohWin.App
         {
         }
 
-        public override void ProcessRequest(HttpListenerContext context)
+        protected override void ProcessRequest(HttpListenerContext context)
         {
             if (ProcessApi(context))
             {
