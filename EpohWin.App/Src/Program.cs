@@ -92,15 +92,14 @@ namespace EpohWin.App
                     try
                     {
                         var result = MethodHelper.Invoke(methodId, invokeParams);
+                        response.StatusCode = 200;
                         if (result is Stream resultStream)
                         {
-                            response.StatusCode = 200;
                             response.ContentType = "application/octet-stream";
                             resultStream.CopyTo(response.OutputStream);
                         }
                         else
                         {
-                            response.StatusCode = 200;
                             response.ContentType = "text/plain; charset=UTF-8";
                             streamWriter.WriteLine(result);
                         }
