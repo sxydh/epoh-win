@@ -34,7 +34,7 @@ namespace EpohWin.App
                 }
             }
 
-            var port = 33;
+            const int port = 50;
 
             var fileServer = new AllServer(port);
             var task = Task.Run(async () => { await fileServer.Start(); });
